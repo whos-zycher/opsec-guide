@@ -1,11 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const themeToggle = document.getElementById('themeToggle');
-    const contentElement = document.getElementById('content');
+    const themeToggle = document.querySelector('#themeToggle');
+    const contentElement = document.querySelector('#content');
     const userTheme = localStorage.getItem('theme');
-    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-    // Remove no-js class
-    document.documentElement.classList.remove('no-js');
+    const systemThemePreference = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
     // Initialize theme
     const applyTheme = (theme) => {
@@ -17,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (userTheme) {
         applyTheme(userTheme);
     } else {
-        applyTheme(systemPrefersDark ? 'dark' : 'light');
+        applyTheme(systemThemePreference ? 'dark' : 'light');
     }
 
     // Toggle theme
@@ -40,11 +37,11 @@ document.addEventListener('DOMContentLoaded', () => {
     loadMarkdown();
 
     // fix reffers
-    const fixreffers = () => {
+    const fixReffers = () => {
         document.querySelectorAll('a').forEach(link => {
             link.setAttribute('target', '_blank');
             link.setAttribute('rel', 'noopener noreferrer');
         });
     };
-    setTimeout(fixreffers, 100);
+    setTimeout(fixReffers, 100);
 });
