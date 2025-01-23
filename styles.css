@@ -1,0 +1,214 @@
+:root {
+    --color-bg: #ffffff;
+    --color-text: #1a1a1a;
+    --color-primary: #000000;
+    --color-border: #e5e5e5;
+    --color-card: #ffffff;
+    --color-link: #4b8cce;
+    --color-link-hover: #80c1ff;
+    --color-link-visited: #5e5ec4;
+    --color-link-active: #3399cc;
+}
+
+[data-theme="dark"] {
+    --color-bg: #1a1a1a;
+    --color-text: #e5e5e5;
+    --color-primary: #ffffff;
+    --color-border: #333333;
+    --color-card: #242424;
+    --color-link: #4da6ff;
+    --color-link-hover: #80c1ff;
+    --color-link-visited: #9999ff;
+    --color-link-active: #3399cc;
+}
+
+[data-theme="light"] {
+    --color-bg: #f0f0f0;
+    --color-text: #1a1a1a;
+    --color-card: #f0f0f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, system-ui, sans-serif;
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1, h2 {
+    margin: 2rem 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--color-border);
+    color: var(--color-primary);
+    letter-spacing: -0.02em;
+}
+
+h1 { font-size: 1.5rem; }
+h2 { 
+    font-size: 1.75rem;
+    border-color: var(--color-link);
+}
+
+a {
+    color: var(--color-link);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    word-break: break-word;
+}
+
+a:hover {
+    color: var(--color-link-hover);
+    text-decoration: underline;
+}
+
+a:visited { color: var(--color-link-visited); }
+a:active { color: var(--color-link-active); }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+header {
+    background-color: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(8px);
+}
+
+.header-content {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+.theme-switch {
+    width: 2.75rem;
+    height: 1.5rem;
+    background-color: var(--color-border);
+    border-radius: 0.75rem;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.theme-switch input { display: none; }
+
+.theme-switch label {
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.theme-switch label::after {
+    content: '';
+    position: absolute;
+    top: 0.125rem;
+    left: 0.125rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: var(--color-bg);
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.theme-switch input:checked + label::after {
+    transform: translateX(1.25rem);
+}
+
+main { padding: 2.5rem 0; }
+
+.content-section {
+    word-wrap: break-word;
+    background-color: var(--color-card);
+    border: 1px solid var(--color-border);
+    border-radius: 0.25rem;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.prose {
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.prose h2 {
+    margin: 2rem 0 1rem;
+    color: var(--color-link-hover);
+    border-bottom: 3px solid var(--color-border);
+}
+
+.prose code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    background-color: var(--color-border);
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+}
+
+pre {
+    background-color: var(--color-border);
+    border-radius: 0.25rem;
+    padding: 1rem;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+.no-js-alert {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 3.75rem 1.25rem;
+    font-size: 1rem;
+    font-family: system-ui, sans-serif;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.no-js-alert p {
+    margin: 0;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .container { padding: 0 1rem; }
+    .content-section { padding: 1.5rem; }
+    .no-js-alert {
+        font-size: 0.875rem;
+        padding: 0.75rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .content-section {
+        padding: 1rem;
+    }
+    h1 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1400px;
+    }
+}
