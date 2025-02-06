@@ -189,6 +189,46 @@ pre {
     font-weight: bold;
 }
 
+.table {
+    column-count: 2;
+    column-gap: 2rem;
+    padding: 0.75rem;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.table p {
+    break-inside: avoid;
+    margin-bottom: 0.2rem;
+}
+
+.table strong {
+    display: block;
+    font-size: 1.0rem;
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+}
+
+.table ul {
+    margin: 0 0 0.5rem 1rem;
+    break-inside: avoid;
+}
+
+.table li {
+    margin-bottom: 0.2rem;
+    font-size: 0.9rem;
+}
+
+.table a {
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+.table a:hover {
+    color: var(--color-link-hover);
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     .container { padding: 0 1rem; }
     .content-section { padding: 1.5rem; }
@@ -196,6 +236,7 @@ pre {
         font-size: 0.875rem;
         padding: 0.75rem;
     }
+    .table {column-count: 1;}
 }
 
 @media (max-width: 576px) {
