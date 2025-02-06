@@ -1,5 +1,78 @@
 "Arguing that you don't care about the right to privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say"
 
+# Table of Contents
+
+<div class="table">
+
+**1. Core Security Principles**
+   - [Threat Modeling](#threat-model-whos-out-to-get-you)
+   - [Worst Case Scenario](#picture-the-worst-case-scenario)
+
+**2. Basic Digital Hygiene**
+   - [Password Security](#strong-passwords-how-to-avoid-common-traps)
+   - [Data Encryption](#encrypted-storage-the-key-to-safeguarding-your-data)
+   - [Device Protection](#mobile-security-fortifying-your-smartphone-against-threats)
+
+**3. Enhanced Privacy Measures**
+   - [Secure Communications](#secure-communicators-and-emails-protecting-your-conversations)
+   - [Social Media Protection](#locking-down-social-media-minimizing-digital-footprints)
+   - [Anonymous Browsing](#web-browsing-keep-your-privacy-intact)
+
+**4. Advanced Anonymity Tools**
+   - [Tor/I2P Usage](#tori2p)
+   - [Anonymous Payments](#anonymous-payments)
+   - [Identity Management](#creating-a-fake-persona-creating-a-believable-yet-secure-alias)
+
+**5. Physical Security**
+   - [Secure Workspace Setup](#1-safe-workplace-hacker-den)
+   - [Surveillance Avoidance](#7-disruption-of-facial-recognition)
+   - [Emergency Protocols](#11-emergency-protocols)
+
+**6. Operational Security (OPSEC)**
+   - [Strategic Planning](#strategic-thinking-a-key-to-long-term-success-and-risk-management)
+   - [Psychological Preparation](#10-be-mindful-in-high-stress-situations)
+   - [Crisis Management](#preparing-for-unexpected-outcomes)
+
+**7. Behavioral-Biometric Threats**
+   - [Stylometry](#stylometry-an-invisible-threat-to-anonymity)
+   - [Behavioral-Biometric Profiling](#what-is-behavioral-biometric-profiling)
+   - [Mitigation Strategies](#how-to-limit-the-profiling-of-typing)
+
+**8. Financial Anonymity**
+   - [Anonymous Payments](#anonymous-payments)
+   - [Managing Earnings Securely](#finances)
+
+**9. Data Protection & Secure Deletion**
+   - [Secure Storage](#data-protection-keep-your-files-secure-and-permanently-deleted)
+   - [Encrypted Drives](#encrypted-storage-the-key-to-safeguarding-your-data)
+
+**10. Mobile & Device Security**
+   - [Safe Operating Systems](#mobile-security-fortifying-your-smartphone-against-threats)
+   - [Avoiding Tracking](#5-mobile-phone-triangulation-know-the-risks)
+
+**11. VPNs & Network Security**
+   - [Choosing a VPN](#vpn-secure-your-connection-but-dont-trust-blindly)
+   - [Avoiding Tracking Techniques](#web-browsing-keep-your-privacy-intact)
+
+**12. Metadata & Digital Signatures in Images**
+   - [EXIF Data Risks](#how-photo-metadata-and-digital-signatures-affect-privacy-exif-data-noise-and-quantization-tables)
+   - [Noise & Image Fingerprinting](#how-photo-metadata-and-digital-signatures-affect-privacy-exif-data-noise-and-quantization-tables)
+   - [Quantization Tables & Tracking](#how-photo-metadata-and-digital-signatures-affect-privacy-exif-data-noise-and-quantization-tables)
+
+**13. High-Level Physical OPSEC**
+   - [Secure Transit](#8-public-transportation-over-personal-vehicles)
+   - [Data Protection in Public](#6-encrypted-storage-on-the-go)
+   - [Avoiding Facial Recognition](#7-disruption-of-facial-recognition)
+
+**14. Emergency & Contingency Planning**
+   - [Emergency Protocols](#11-emergency-protocols)
+   - [Exit Strategies](#12-when-in-doubt-disappear)
+   - [Long-Term Adaptation](#expected-outcomes)
+
+**15. Strategic Thinking & Risk Management**
+   - [Planning for the Future](#effective-planning)
+</div>
+
 # Threat Model: Who's Out to Get You? 
 
 Before going into this guide, you need to know exactly what you're up against. What are you trying to protect? Is it sensitive data, personal conversations, or maybe just your whole online life? Who's after you - hackers, stalkers, gov agencies? And what's the worst case scenario if they get their hands on your info? Understanding the risks is step one in building your empire.
