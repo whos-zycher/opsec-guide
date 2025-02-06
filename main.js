@@ -38,10 +38,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // fix reffers
     const fixReffers = () => {
-        document.querySelectorAll('a').forEach(link => {
+        document.querySelectorAll('p a').forEach(link => {
             link.setAttribute('target', '_blank');
             link.setAttribute('rel', 'noopener noreferrer');
         });
     };
     setTimeout(fixReffers, 100);
 });
+    
