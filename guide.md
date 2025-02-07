@@ -196,7 +196,7 @@ Mainstream browsers such as Chrome and Opera are known for collecting huge amoun
 
 For users managing multiple accounts or personas, anti-detection browsers such as Dolphin{anty}, Incogniton or Ghost Browser offer a best solution. These browsers protect against fingerprinting techniques that track users based on unique device and browsing characteristics. 
 
-**For search engines**, you should avoid Google and other crap. Instead, consider using privacy focused search engines such as DuckDuckGo or Searx.
+**For search engines**, you should avoid Google and other crap. Instead, consider using privacy focused search engines such as DuckDuckGo or SearXNG.
 
 **Recommended privacy extensions:**
 uBlock Origin
