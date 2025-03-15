@@ -520,5 +520,5 @@ More to come soon™
 Questions, suggestions, anything? write at zycher@cock.li
 
 If you want to support my work
-XMR - 84h9GeLKqoTXZMDBPysNs4Dbu1tqR9dtz3kAkLBguUPFF9BCGVQQBmr4Dr4aCqXm6KinwUS99GMxj86DALubVH27TvN7erA
-BTC - bc1q6n2kdjh2p4h2chmp7uj3937c8pcxd846d8hgnnp68vfh92dn03pqkw4vd9
+* XMR - 84h9GeLKqoTXZMDBPysNs4Dbu1tqR9dtz3kAkLBguUPFF9BCGVQQBmr4Dr4aCqXm6KinwUS99GMxj86DALubVH27TvN7erA
+* BTC - bc1q6n2kdjh2p4h2chmp7uj3937c8pcxd846d8hgnnp68vfh92dn03pqkw4vd9
