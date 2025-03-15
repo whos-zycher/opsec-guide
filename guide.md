@@ -6,12 +6,11 @@
 
 **1. Core Security Principles**
    - [Threat Modeling](#threat-model-whos-out-to-get-you)
-   - [Worst Case Scenario](#picture-the-worst-case-scenario)
 
 **2. Basic Digital Hygiene**
    - [Password Security](#strong-passwords-how-to-avoid-common-traps)
    - [Data Encryption](#encrypted-storage-the-key-to-safeguarding-your-data)
-   - [Device Protection](#mobile-security-fortifying-your-smartphone-against-threats)
+   - [Phone Protection](#mobile-security-fortifying-your-smartphone-against-threats)
 
 **3. Enhanced Privacy Measures**
    - [Secure Communications](#secure-communicators-and-emails-protecting-your-conversations)
@@ -28,58 +27,94 @@
    - [Surveillance Avoidance](#7-disruption-of-facial-recognition)
    - [Emergency Protocols](#11-emergency-protocols)
 
-**6. Operational Security (OPSEC)**
-   - [Strategic Planning](#strategic-thinking-a-key-to-long-term-success-and-risk-management)
-   - [Psychological Preparation](#10-be-mindful-in-high-stress-situations)
-   - [Crisis Management](#preparing-for-unexpected-outcomes)
-
-**7. Behavioral-Biometric Threats**
+**6. Behavioral-Biometric Threats**
    - [Stylometry](#stylometry-an-invisible-threat-to-anonymity)
    - [Behavioral-Biometric Profiling](#what-is-behavioral-biometric-profiling)
    - [Mitigation Strategies](#how-to-limit-the-profiling-of-typing)
 
-**8. Financial Anonymity**
+**7. Financial Anonymity**
    - [Anonymous Payments](#anonymous-payments)
    - [Managing Earnings Securely](#finances)
 
-**9. Data Protection & Secure Deletion**
+**8. Data Protection & Secure Deletion**
    - [Secure Storage](#data-protection-keep-your-files-secure-and-permanently-deleted)
    - [Encrypted Drives](#encrypted-storage-the-key-to-safeguarding-your-data)
 
-**10. Mobile & Device Security**
+**9. Mobile & Device Security**
    - [Safe Operating Systems](#mobile-security-fortifying-your-smartphone-against-threats)
    - [Avoiding Tracking](#5-mobile-phone-triangulation-know-the-risks)
 
-**11. VPNs & Network Security**
+**10. VPNs & Network Security**
    - [Choosing a VPN](#vpn-secure-your-connection-but-dont-trust-blindly)
+   - [Network Security](#network-security)
    - [Avoiding Tracking Techniques](#web-browsing-keep-your-privacy-intact)
 
-**12. Metadata & Digital Signatures in Images**
+**11. Metadata & Digital Signatures in Images**
    - [EXIF Data Risks](#how-photo-metadata-and-digital-signatures-affect-privacy-exif-data-noise-and-quantization-tables)
    - [Noise & Image Fingerprinting](#how-photo-metadata-and-digital-signatures-affect-privacy-exif-data-noise-and-quantization-tables)
    - [Quantization Tables & Tracking](#how-photo-metadata-and-digital-signatures-affect-privacy-exif-data-noise-and-quantization-tables)
 
-**13. High-Level Physical OPSEC**
+**12. Physical OPSEC**
    - [Secure Transit](#8-public-transportation-over-personal-vehicles)
    - [Data Protection in Public](#6-encrypted-storage-on-the-go)
    - [Avoiding Facial Recognition](#7-disruption-of-facial-recognition)
+   - [Crisis Management](#preparing-for-unexpected-outcomes)
+   - [Psychological Defense](#psychological-defense-against-social-engineering)
 
-**14. Emergency & Contingency Planning**
+**13. Emergency & Contingency Planning**
    - [Emergency Protocols](#11-emergency-protocols)
    - [Exit Strategies](#12-when-in-doubt-disappear)
    - [Long-Term Adaptation](#expected-outcomes)
 
-**15. Strategic Thinking & Risk Management**
+**14. Strategic Thinking & Risk Management**
    - [Planning for the Future](#effective-planning)
 </div>
 
+
 # Threat Model: Who's Out to Get You? 
 
-Before going into this guide, you need to know exactly what you're up against. What are you trying to protect? Is it sensitive data, personal conversations, or maybe just your whole online life? Who's after you - hackers, stalkers, gov agencies? And what's the worst case scenario if they get their hands on your info? Understanding the risks is step one in building your empire.
+Before you do anything, you need to know what you're actually defending against. OPSEC isn't some magic list of rules you blindly follow. It's about making calculated moves based on your specific risks. You don't just throw on a vpn and call it a day - that's how clueless people operate. You build your defenses based on who's after you, what they want, and what happens if they succeed.
 
-# Picture the Worst Case Scenario 
+</br>
 
-Think about what would happen if they win. Jail, doxxing, or worse? Would your life be turned upside down by leaked private info? The more you understand the potential consequences, the more you can protect yourself.
+### What Are You Protecting?
+
+Are you guarding sensitive personal data, confidential business information, illegal activities, or just your right to privacy? Maybe you're a journalist, activist, hacker, or just someone who values keeping their things locked down. Different assets require different levels of protection.
+
+</br>
+
+### Who's After You?
+
+This is where things gets real. There's a world of difference between avoiding some script kiddie on a forum and dodging a full-blown government surveillance operation. Here's the short spectrum of threats:
+
+* Low-tier: Nosy friends, exes, random trolls, dumbass script kiddies.
+* Mid-tier: Competitors, cybercriminals, doxxers, stalkers.
+* High-tier: Law enforcement, intelligence agencies, corporate espionage, nation-state actors.
+
+</br>
+
+Each of these operates differently. Some rely on social engineering, some use technical exploits, some just brute force their way in with legal power. The stronger your enemy, the more airtight your opsec needs to be.
+
+</br>
+
+### What Happens If They Win?
+
+This is the cost of failure. What's the worst case scenario if your data, identity, or location falls into the wrong hands? Getting doxxed and harassed? Losing access to your accounts and digital assets? Facing legal consequences, arrest, or worse? If the consequences are life altering, you better not play around. This is where compartmentalization, anonymity, and airtight security protocols come in.
+
+</br>
+
+### Building Your Defense
+Threat modeling isn't just an exercise - it dictates every decision in your opsec. If your biggest threat is an ex trying to snoop, you don't need NSA level security. But if you're up against a government entity, you tight rules.
+
+Before you start applying security measures, map out your threat model:
+
+* What are you protecting?
+* Who's after you?
+* What's the worst that could happen?
+* What resources and capabilities do they have?
+
+Once you have answers to these, only then can you start crafting a security strategy that actually works. Anything else is just security theater.
+
 
 # Stylometry: An Invisible Threat to Anonymity
 
@@ -227,7 +262,7 @@ Second, while roms like LineageOS might look privacy sexy, they actually weaken 
 
 For the highest level of security and privacy, GrapheneOS is the top choice. However, it is limited to Pixel 6 or newer devices. These phones are particularly resistant to forensis tools like Cellebrite. If you're on a budget, you can purchase a used Pixel device, but always ensure you are not using an old SIM card, as that could compromise your security.
 
-If you can't use GrapheneOS, DivestOS is a good alternative. While not as good as GrapheneOS, it provides a much better privacy and security environment compared to the bloated, standard rom that most phones come with. It removes unnecessary features and adds enhancements that better protect user data.
+Since DivestOS is discontinued - looking for alternative.
 
 # Secure Communicators and Emails: Protecting Your Conversations
 Use applications such as Signal, or better yet, choose Molly (molly.im), Session or XMPP with onion domains and OTR/OMEMO encryption. These offer much stronger privacy protection than the major messaging services. If you're still using Gmail, Outlook or any of these popular platforms, just stop - it's a privacy disaster waiting to happen. Instead, get interested in alternatives such as cock.li, morke.org or TorBox.
@@ -252,6 +287,31 @@ To increase your privacy when using a VPN, it's best to set up your own, prefera
 
 Mullvad vpns seems to be a good option.
 
+# Network Security
+
+Your home network is the backbone of your digital life. If it's compromised, you're done. First off, ditch those ISP provided routers. They come with backdoors, shitty firmware, and vulnerabilities you don't want anywhere near your network. Instead, grab a GL.INet router, a pfSense box, or any device that supports OpenWRT flashed manually, by you, from a trusted offline machine. Anything that updates itself without your explicit control is a liability. No auto updates. 
+
+Next, install OpenWRT or OPNsense. Open source firmware gives you control, visibility, and actual security. Change those default credentials instantly the default admin/password combo on consumer routers is literally a published list for script kiddies and bots. Remote management? Kill it. WAN access to the admin panel is a wide-open door for attacks. Shut that shit down immediately. 
+
+Set up a guest network for Iot garbage smart tv, alexa, "smart" thermostats if you absolutely must use them (but you really shouldn't). These devices are spyware in disguise, with cloud connections phoning home 24/7. Keep them quarantined in their own vian, with zero access to your primary devices. 
+
+Your firewall isn't a suggestion its a necessity. Use vlans to segregate trusted devices from untrusted ones. Block all outbound connections by default whitelist only what you explicitly need. LAN-to-WAN traffic? Minimal as possible. Think of your network as a military base you don't let random devices roam free. Everything is locked down. 
+
+If you're not watching your traffic, someone else is. Set up wireshark, zeek, suricata. Learn them. Monitor "every" packet incoming and outgoing. If something's phoning home when it shouldn't be, you need to know before it becomes a problem. Anything making requests to servers in china, russia, or Als data centers you don't recognize ? Kill it.
+
+If you're using Google DNS (8.8.8.8) or cloudflare (1.1.1.1), you're basically mailing your browsing history to surveillance agencies. Don't. Instead, use Quad9 (9.9.9.9) or Mullvad (194.242.2.2) at minimum, or better, self host unbound. Encrypt your dns with DoH (DNS-over-HTTPS) or DoT (DNS-over-TLS). Then, block all devices from using any other dns. If something is hardcoded to google, it's spyware. 
+
+WiFi is a disaster zone. If you take opsec seriously, use ethernet. But If you absolutely must use wifi, secure it. WPA2 is outdated. WEP is a joke. WPA3 is the absolute minimum. Your SSID shouldn't be some dumbass joke like "FBI SURVEILLANCE VAN" it should be random gibberish. Hiding your SSID? Useless. Disabling WPS? Mandatory. That shit is a built in backdoor. 
+
+MAC address filtering won't save you, but it adds another hurdle. Rotate your wifi passwords regularly, and make them long as hell. If you really want next level paranoia, use EAP-TLS with 802.1X authentication because security is enterprise level or nothing. 
+
+Routing all your wifi traffic through tor is a rookie mistake. It's slow, makes you stand out, and leaks are inevitable. Instead, set up selective routing. Only your most sensitive traffic should touch Tor. Want to be a real ghost? Set up a dual router system one for regular traffic, one for high anonymity operations. This fragments your traffic footprint and makes you harder to track. 
+
+Check your logs constantly. Firewall logs, system logs, DNS logs. If you're not watching, you're already compromised. 
+IoT devices are a plague. If you put your personal devices on the same network as your IoT trash, you might as well invite hackers into your house. These things are glorified spyware hubs. Your "smart" fridge, your "smart" thermostat, your "smart" doorbell? They're not smart, they're fucking informants. 
+
+Your network security is only as strong as your weakest link. If you trust anything blindly, you're already compromised.
+
 # Tor/I2P
 
 If you're serious about staying anonymous, you need to use Tor or I2P. But they're not magic. Time based attacks are the order of the day: even if you do everything by the book, if your enemy controls enough nodes on the network, he can track your activity - for example, what time you are online on some forum and more. You should also be aware of malicious relays, the FBI is known to create its own nodes on the network to spy on users. You can't blindly trust the network. Always be on the lookout for exploits, and disabling JS in your browser settings is a must.
@@ -265,6 +325,7 @@ EXIF (Exchangeable Image File Format) metadata is embedded in most image files a
 - Noise
 
 Digital noise is a grainy texture often visible in photos, especially in low-light conditions. Each camera sensor has a unique noise pattern that can be used to trace the origin of the image back to the specific device that captured it. Forensic experts can use specialized algorithms to analyze these noise patterns, creating a "fingerprint" for the image. This fingerprint can then be compared to a database of known noise patterns to identify the camera or device in use. Although more difficult to detect than other forms of metadata, digital noise is another potential source of privacy leakage that can compromise anonymity.
+
 - Quantization tables
 
 Quantization tables are a key part of the JPEG compression process, in which image pixel data is simplified to reduce file size. During compression, pixel values are approximated, and this approximation process uses quantization tables, which vary depending on the device or software. These tables can serve as digital signatures for the camera or editing software used to create or modify the image. Forensic tools can use these tables to analyze the image and potentially identify the source device. In fact, even if an image has been modified or compressed, a quantization table can provide valuable insight into the original source, which can be crucial for image authentication or tracking.
@@ -376,7 +437,6 @@ Managing the Risk of Failure: Failure is unavoidable  at some point. The key is 
 
 # Strategic Thinking: A Key to Long Term Success and Risk Management
 
-
 When you're in a high risk situation, strategic thinking isnt just important, its a must. Thoughtful planning helps you minimize risks and avoid unnecessary mistakes, while rushing in impulsively can expose you to dangers that could have been avoided.
 
 **Why Strategic Thinking Matters?**
@@ -404,5 +464,61 @@ When you're in a high risk situation, strategic thinking isnt just important, it
 
 Strategic thinking ensures that decisions are well aligned, risks are minimized, and flexibility is maintained in dynamic environments.
 
+# Psychological Defense Against Social Engineering
+
+Social engineering isn't fiction. FBI, police, and intelligence agencies use it daily from staged car crashes to fake emergencies designed to lure you out of safety. Machiavellian tactics are standard in modern OPSEC warfare. Niccolò Machiavelli's principles of deception, manipulation, and strategic distrust apply here: "The and justifies the means Assume every interaction is an exploit attempt. 
+
+# 1. Social Engineering in Real Life 
+
+Social engineering isn't fiction. FBI even the police can stage car crashes to lure you of the house, and Machiavellian tactics are alive in modern opsec warfare. Niccolo Machiavelli's principles of deception, manipulation, and strategic distrust echo loudly here - "The end justify the means" assume every interaction is an exploit attempt.
+
+</br>
+
+   - **Fake Emergencies** - Car "accidents", fake police visits, sudden "urgent" requests from coworkerse, neighbors, or service providers. 
+   - **Infiltration** - Attackers posing as delivery drivers, it support, contractors, or maintenance workers.
+   - **Honey Traps** - Attractive strangers online (or irl) building trust for months to extract data.
+   - **Quid Pro Quo** - "I help you, you help me" setups designed to extract information by creating obligation. 
+   - **Tailgating** - Following someone into a secure area without proper clearance. 
+   - **Deepfake Manipulation** - AI generated voices and videos to Impersonate trusted figures or family members. 
+</br> 
+
+# 2. The Paranoid Mindset
+
+   - **Machiavellian Caution** - Trust is a vulnerability. "It is double pleasure to deceive the deceiver"
+   - **Assume Everything Is a Setup** -  That random call? Trap. That new friend? Plant.
+   - **Zero Trust Principle** - Even family can be leveraged. Never share exploitable info.
+   - **Compartmentalization** - Separate devices, accounts, and identities for different operations.
+
+# 3. Hyper-Disciplined Communication
+
+   - **Code Phrases** - Unique code phrases for verification.
+   - **No Small Talk** - Innocuous chat can reveal habits, locations, or security measures.
+   - **Digital Ghosting** - Regularly nuke accounts and create new ones.
+
+# 4. Behavioral Routines for Paranoia
+
+   - **Change Daily Patterns** - Never take the same route, same schedule.
+   - **Secure Meeting Spots** - Avoid predictable places.
+   - **Surveillance Awareness** - Assume you're watched - act accordingly.
+
+# 5. Psychological Fortification
+
+   - **Desensitize to Manipulation** - Recognize emotional manipulation.
+   - **Train with Mock Attacks** - Regularly simulate attacks.
+
+</br>
+
+**As Machiavelli said "He who seeks to deceive will always find someone who will allow himself to be deceived" Don't be that someone. Paranoia isn't a disorder here - it's survival.**
+
+# bonus
+
+If you want to secure your devices physically, let's say a laptop, grab some clear nail polish with glitter. Apply a small amount, to the screws at the bottom just enough to cover them without making a mess. Take high resolution photos from multiple angles. Once the polish dries, it forms a unique, random pattern that's nearly impossible to replicate. If someone tampers with your device and tries to reapply the polish, the pattern won't match your original photos. Simple, cheap, and effective against sneaky hardware tampering.
+
+</br >
+
 More to come soon™ 
 Questions, suggestions, anything? write at zycher@cock.li
+
+If you want to support my work
+XMR - 84h9GeLKqoTXZMDBPysNs4Dbu1tqR9dtz3kAkLBguUPFF9BCGVQQBmr4Dr4aCqXm6KinwUS99GMxj86DALubVH27TvN7erA
+BTC - bc1q6n2kdjh2p4h2chmp7uj3937c8pcxd846d8hgnnp68vfh92dn03pqkw4vd9
