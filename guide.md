@@ -75,13 +75,9 @@
 
 Before you do anything, you need to know what you're actually defending against. OPSEC isn't some magic list of rules you blindly follow. It's about making calculated moves based on your specific risks. You don't just throw on a vpn and call it a day - that's how clueless people operate. You build your defenses based on who's after you, what they want, and what happens if they succeed.
 
-</br>
-
 ### What Are You Protecting?
 
 Are you guarding sensitive personal data, confidential business information, illegal activities, or just your right to privacy? Maybe you're a journalist, activist, hacker, or just someone who values keeping their things locked down. Different assets require different levels of protection.
-
-</br>
 
 ### Who's After You?
 
@@ -91,17 +87,11 @@ This is where things gets real. There's a world of difference between avoiding s
 * Mid-tier: Competitors, cybercriminals, doxxers, stalkers.
 * High-tier: Law enforcement, intelligence agencies, corporate espionage, nation-state actors.
 
-</br>
-
 Each of these operates differently. Some rely on social engineering, some use technical exploits, some just brute force their way in with legal power. The stronger your enemy, the more airtight your opsec needs to be.
-
-</br>
 
 ### What Happens If They Win?
 
 This is the cost of failure. What's the worst case scenario if your data, identity, or location falls into the wrong hands? Getting doxxed and harassed? Losing access to your accounts and digital assets? Facing legal consequences, arrest, or worse? If the consequences are life altering, you better not play around. This is where compartmentalization, anonymity, and airtight security protocols come in.
-
-</br>
 
 ### Building Your Defense
 Threat modeling isn't just an exercise - it dictates every decision in your opsec. If your biggest threat is an ex trying to snoop, you don't need NSA level security. But if you're up against a government entity, you tight rules.
@@ -154,9 +144,7 @@ The risk increases when typing patterns occur across multiple sites. This allows
 
 Some banks already use this technology to detect fraudulent activity by analyzing typing patterns. Interestingly, similar methods were used during World War II, when the British identified German telegraph operators based on their unique transmission habits.
 
-
 # How to limit the profiling of typing
-
 
 If you're concerned about being identified through your typing style, try these:
 
@@ -297,7 +285,7 @@ Set up a guest network for Iot garbage smart tv, alexa, "smart" thermostats if y
 
 Your firewall isn't a suggestion its a necessity. Use vlans to segregate trusted devices from untrusted ones. Block all outbound connections by default whitelist only what you explicitly need. LAN-to-WAN traffic? Minimal as possible. Think of your network as a military base you don't let random devices roam free. Everything is locked down. 
 
-If you're not watching your traffic, someone else is. Set up wireshark, zeek, suricata. Learn them. Monitor "every" packet incoming and outgoing. If something's phoning home when it shouldn't be, you need to know before it becomes a problem. Anything making requests to servers in china, russia, or Als data centers you don't recognize ? Kill it.
+If you're not watching your traffic, someone else is. Set up wireshark, zeek, suricata. Learn them. Monitor "every" packet incoming and outgoing. If something's phoning home when it shouldn't be, you need to know before it becomes a problem. Anything making requests to servers in china, russia, or AWS data centers you don't recognize ? Kill it.
 
 If you're using Google DNS (8.8.8.8) or cloudflare (1.1.1.1), you're basically mailing your browsing history to surveillance agencies. Don't. Instead, use Quad9 (9.9.9.9) or Mullvad (194.242.2.2) at minimum, or better, self host unbound. Encrypt your dns with DoH (DNS-over-HTTPS) or DoT (DNS-over-TLS). Then, block all devices from using any other dns. If something is hardcoded to google, it's spyware. 
 
@@ -434,7 +422,6 @@ Managing the Risk of Failure: Failure is unavoidable  at some point. The key is 
 
 - By managing success discreetly and strategically, you'll protect yourself from adversaries and maintain your operational advantage. A low profile, combined with secure and flexible practices, strengthens your position while minimizing risk. This approach fosters growth opportunities and ensures a resilient, long term operational framework, keeping you one step ahead in an ever changing environment.
 
-
 # Strategic Thinking: A Key to Long Term Success and Risk Management
 
 When you're in a high risk situation, strategic thinking isnt just important, its a must. Thoughtful planning helps you minimize risks and avoid unnecessary mistakes, while rushing in impulsively can expose you to dangers that could have been avoided.
@@ -472,15 +459,12 @@ Social engineering isn't fiction. FBI, police, and intelligence agencies use it 
 
 Social engineering isn't fiction. FBI even the police can stage car crashes to lure you of the house, and Machiavellian tactics are alive in modern opsec warfare. Niccolo Machiavelli's principles of deception, manipulation, and strategic distrust echo loudly here - "The end justify the means" assume every interaction is an exploit attempt.
 
-</br>
-
    - **Fake Emergencies** - Car "accidents", fake police visits, sudden "urgent" requests from coworkerse, neighbors, or service providers. 
    - **Infiltration** - Attackers posing as delivery drivers, it support, contractors, or maintenance workers.
    - **Honey Traps** - Attractive strangers online (or irl) building trust for months to extract data.
    - **Quid Pro Quo** - "I help you, you help me" setups designed to extract information by creating obligation. 
    - **Tailgating** - Following someone into a secure area without proper clearance. 
    - **Deepfake Manipulation** - AI generated voices and videos to Impersonate trusted figures or family members. 
-</br> 
 
 # 2. The Paranoid Mindset
 
@@ -506,19 +490,16 @@ Social engineering isn't fiction. FBI even the police can stage car crashes to l
    - **Desensitize to Manipulation** - Recognize emotional manipulation.
    - **Train with Mock Attacks** - Regularly simulate attacks.
 
-</br>
-
 **As Machiavelli said "He who seeks to deceive will always find someone who will allow himself to be deceived" Don't be that someone. Paranoia isn't a disorder here - it's survival.**
 
 # bonus
 
 If you want to secure your devices physically, let's say a laptop, grab some clear nail polish with glitter. Apply a small amount, to the screws at the bottom just enough to cover them without making a mess. Take high resolution photos from multiple angles. Once the polish dries, it forms a unique, random pattern that's nearly impossible to replicate. If someone tampers with your device and tries to reapply the polish, the pattern won't match your original photos. Simple, cheap, and effective against sneaky hardware tampering.
 
-</br >
-
 More to come soon™ 
 Questions, suggestions, anything? write at zycher@cock.li
 
 If you want to support my work
+
 * XMR - 84h9GeLKqoTXZMDBPysNs4Dbu1tqR9dtz3kAkLBguUPFF9BCGVQQBmr4Dr4aCqXm6KinwUS99GMxj86DALubVH27TvN7erA
 * BTC - bc1q6n2kdjh2p4h2chmp7uj3937c8pcxd846d8hgnnp68vfh92dn03pqkw4vd9
